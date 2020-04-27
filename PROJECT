@@ -1,3 +1,7 @@
 domain: my.domain
 repo: github.com/Mirantis/ds2ks
+resources:
+- group: ship
+  kind: Frigate
+  version: v1alpha1
 version: "2"
